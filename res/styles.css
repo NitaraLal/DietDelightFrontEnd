@@ -1,37 +1,48 @@
 header{
-  color: darksalmon;
-  border: 10px; /* Set a transparent border to make room for the image */
-  border-image-source: url('../healthy-pic.jpeg'); /* Adjust the path based on your folder structure */
-  border-image-slice: 10; /* Adjust the slicing if needed */
-  border-image-width: 8px; /* Adjust the width of the border */
-  border-image-outset: 0; /* Adjust the outset if needed */
+  color: rgb(189, 78, 41);
+  border-image: url(../healthy-pic.jpeg);
+  background-size: cover;
+  z-index: -1;
 }
 .header-div {
   display: flex;
-  justify-content: space-around;
-  
+  justify-content: space-between;
   align-items: center;
- 
   width: 100%;
   padding: 10px 0 10px 0;
 }
 .header-title {
-  text-align: center;
   font-style: oblique;
+  font-size: 120%;
+  padding: 15px 10px;
+  text-decoration:none;
 }
-.header-btn {
+.header-title2 {
+  
+  align-items: center;
+  padding: 30px 0 30px 610px; 
+  margin: 0 auto;
+  font-style:inherit;
  
-  border-radius: 10px;
-  padding: 10px 10px 10px 10px;
+}
+.nav-btn {
+  border-radius: 3px;
+  padding: 30px 200px; /* Adjust padding as needed */
   text-decoration: none;
-  color: black;
+  color: rgb(165, 89, 42);
+  display: inline-block;
 
 }
-.header-btn:hover {
+.nav-btn:hover {
   background-color: rgb(120, 80, 47);
   color: white;
+  padding: 10px 15px;
 }
 body{
- 
+ /*background-image: url(../healthy-pic.jpeg); */
 background-color: rgba(255, 228, 196, 0.34);
+/*background-size: cover5o; */
 }
+
+
+
