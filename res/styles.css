@@ -25,18 +25,23 @@ header{
   font-style:inherit;
  
 }
-.nav-btn {
+.top-nav {
+  display: flex;
+}
+.nav-btn-outer {
+  padding: 30px 200px; 
+}
+.nav-btn-inner {
   border-radius: 3px;
-  padding: 30px 200px; /* Adjust padding as needed */
   text-decoration: none;
   color: rgb(165, 89, 42);
   display: inline-block;
 
 }
-.nav-btn:hover {
+.nav-btn-inner:hover {
   background-color: rgb(120, 80, 47);
   color: white;
-  padding: 10px 15px;
+  
 }
 body{
  /*background-image: url(../healthy-pic.jpeg); */
